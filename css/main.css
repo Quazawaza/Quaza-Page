@@ -1,0 +1,30 @@
+@font-face {
+    font-family: 'VirtualSelf';
+    src: url(Stock-Quote.ttf.woff) format('woff');
+    font-style: normal;
+    font-weight: normal;
+}
+@font-face {
+    font-family: 'Madeon';
+    src: url(Madeon-Runes-Bold-Bold.ttf.woff) format('woff');
+    font-style: normal;
+    font-weight: normal;
+}
+body {
+    font-family: Ubuntu;
+    height: 500px;
+    
+}
+.title {
+    font-family: VirtualSelf;
+    font-size: 36px;
+    text-align: center;
+    color: whitesmoke;
+}
+.header_bg_1 {
+    background: rgb(24,0,41);
+    background: linear-gradient(90deg, rgba(24,0,41,1) 0%, rgba(43,0,75,1) 43%, rgba(75,0,130,1) 100%);
+}
+.navbar_color {
+    background-color: rgb(56, 56, 56);
+}
