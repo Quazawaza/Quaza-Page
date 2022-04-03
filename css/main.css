@@ -46,3 +46,14 @@ body {
     background-color: rgb(56, 56, 56);
 
 }
+.music_page_background {
+    background-color: gray;
+    padding-top: 10px;
+    padding-bottom: 10vh;
+}
+.about {
+    font-size: 32px;
+    font-weight: bold;
+    font-family: Ubuntu;
+    text-shadow: 2px 2px 2px rgba(0,0,0,.5);
+}
