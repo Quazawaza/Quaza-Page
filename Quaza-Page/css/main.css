@@ -67,3 +67,20 @@ body {
     background: rgb(0,0,0);
     background: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(37,0,0,1) 77%, rgba(255,0,0,1) 100%);
 }
+.Gallery-backg {
+    background-color: gray;
+}
+.photo-div {
+    background-color: rgb(37, 37, 37);
+    border: 3px solid  rgba(75,0,130,1);
+}
+.photo-div:hover { 
+    box-shadow: 0 0 10px 5px rgba(75,0,130,1);;
+}
+.description {
+    margin-top: 10px;
+    padding: 5px;
+    font-weight: bold;
+    text-align: center;
+    color: white;
+}
