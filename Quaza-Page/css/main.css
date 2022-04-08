@@ -33,7 +33,6 @@ body {
     position: relative;
     color: white;
     text-shadow: 2px 2px 2px rgba(0,0,0,.5);
-    font-size: 100px;
 }
 .color-overlay {
     position: absolute;
@@ -83,4 +82,29 @@ body {
     font-weight: bold;
     text-align: center;
     color: white;
+}
+.text {
+    cursor: pointer;
+    font-size: 100px;
+    padding: 50px;
+    font-family: Madeon;
+    color: lightgrey;
+    position: relative;
+    overflow: hidden;
+    white-space: nowrap;
+    transition: 0.5s ease-out;
+}
+.text:hover {
+    color: white;
+    text-shadow: 0 0 10px white, 0 0 20px white, 0 0 40px white;
+}
+@media (max-width: 1200px) {
+    .text {
+        font-size: 50px;
+    }
+}
+@media (max-width: 768px) {
+    .text {
+        font-size: 24px;
+    }
 }
